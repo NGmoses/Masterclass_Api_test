@@ -6,6 +6,6 @@ app.config["DEBUG"]= True #Returns an error message when something doesn't work 
 @app.route('/', methods=['GET'])#This maps the fxn 'home' to this url
 
 def home():
-    return "<h1>Distance Reading Archive<h1>"
+    return "<h1>Distance Reading Archive Now<h1>"
 
 app.run()#Methods that runs the aplication server
